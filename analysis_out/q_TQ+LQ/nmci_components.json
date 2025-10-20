@@ -1,0 +1,46 @@
+{
+  "A_parts": {
+    "curvature_mean_dd2": NaN,
+    "logistic_k": NaN,
+    "hysteresis_area": 11.787706903071012
+  },
+  "S_parts": {
+    "hemi_asym": 0.5699507982656219,
+    "butterfly_skew_abs": 0.03773057122000102,
+    "MI_tilt_lat": NaN
+  },
+  "T_parts": {
+    "R_third_moment": 0.0006001830381499886,
+    "perm_entropy_asym": 1.1102230246251565e-16,
+    "loop_area": 11.787706903071012
+  },
+  "M_parts": {
+    "dfa_alpha_offset": 1.0190466808207888,
+    "kurtosis_excess_resid": 0.0
+  },
+  "E_parts": {
+    "lz_entropy_rate": 0.36660048191953526,
+    "Q_ar1_over_ar5": 2.6039180985360684
+  },
+  "normalized": {
+    "A": 0.0,
+    "S": 0.5,
+    "T": 0.33335030533767324,
+    "M": 0.5,
+    "E": 0.5,
+    "NMCI": 0.36667006106753464
+  },
+  "per_cycle": {
+    "A_cycle": [
+      15.42717227935791
+    ],
+    "D_cycle": [
+      0.2127815791930318
+    ]
+  },
+  "meta": {
+    "T": 401,
+    "L": 181,
+    "simul_time_years": 11.0
+  }
+}

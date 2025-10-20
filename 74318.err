@@ -1,0 +1,28 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gnu8"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "gnu8"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+Note: the module "openmpi3/3.1.4" cannot be unloaded because it was not loaded.
+
+/var/lib/slurm-llnl/slurmd/job74318/slurm_script: line 17: /anaconda3/bin/activate: No such file or directory
+2025-10-06 18:44:00.040536: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-10-06 18:44:08.290382: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-10-06 18:44:08.291392: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-10-06 18:44:36.788198: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Using backend: tensorflow.compat.v1
+Other supported backends: tensorflow, pytorch, jax, paddle.
+paddle supports more examples now and is recommended.
+WARNING:tensorflow:From /home/malwardat/anaconda3/envs/pinns-sft/lib/python3.10/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+2025-10-06 18:46:03.839154: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:375] MLIR V1 optimization pass is not enabled
